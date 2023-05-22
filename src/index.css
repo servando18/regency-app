@@ -1,4 +1,36 @@
-body {
-    background:white;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
     
-}
+    }
+    
+    :root {
+      --color-1: #fff;
+      --color-2: #7bdcb5;
+      --color-3: #0693e3;
+      --transition: all 400ms ease;
+    
+      --container-width-lg: 75%;
+      --container-width-md: 86%;
+      --container-width-sm: 90%;
+    }
+    
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    ::-webkit-scrollbar {
+      display: none;
+    }
+    
+    body {
+      background: var(--color-1);
+      line-height: 1.7;
+    
+    }
+    /* ======== General styles ========     */
